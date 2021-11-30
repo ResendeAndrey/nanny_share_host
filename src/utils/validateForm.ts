@@ -1,7 +1,7 @@
 import { toast } from "react-toastify";
 
 export function validateEmail(email: string) {
-  const regexEmail = /[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
+  const regexEmail = /[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/g;
   if(!email)
   {
     toast.error('The email value is not correct');
