@@ -1,0 +1,14 @@
+.care_available_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  & a {
+    color: var(--purple-800);
+    margin-left: 1rem;
+  }
+  & span {
+    color: var(--black);
+    text-decoration: none !important;
+  }
+}

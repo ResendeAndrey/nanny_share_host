@@ -1,0 +1,18 @@
+.billingHistory {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 20%;
+    bottom: -20%;
+    height: 1px;
+    width: 60%;
+    border-top: 1px solid var(--gray-200);
+  }
+  & img {
+    width: 1100px;
+  }
+}

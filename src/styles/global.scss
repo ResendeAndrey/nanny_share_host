@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #FFF;
+
+  --gray-50: #F2F2F2;
+  --gray-200: #DFDFDF;
+  --gray-500: #4A4A4A;
+  --gray-800: #3D3D3D;
+  --black: #000000;
+
+  --green-300: #00C88C;
+  --green-500: #00A870;
+  
+  --purple-800: #5E20A4; 
+}
+
+body {
+ background: var(--gray-50)
+}
+body, input, textarea, button {
+  font: 500 1rem Inter, sans-serif;
+  color: var(--gray-500)
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+  font-family: Inter, sans-serif;
+  color: var(--white);
+}
+p {
+  color: var(--white);
+  font-weight: normal;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.75rem;
+}
+h3 {
+  font-size: 1.375rem;
+}
+h4 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-family: Inter, sans-serif;
+  color: var(--white);
+}
+
+button, a {
+  cursor: pointer;
+}
+a {
+  color: var(--purple-800);
+}

@@ -1,0 +1,16 @@
+.becomeNanny {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  h2, p {
+    color: var(--gray-800);
+  }
+  p {
+    margin: 1.5rem auto;
+  }
+  button {
+    border: none;
+    margin-bottom: 1rem;
+    background: none;
+  }
+}

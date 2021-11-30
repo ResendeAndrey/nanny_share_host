@@ -1,0 +1,14 @@
+.nannyDailyDiary {
+  margin: 10rem 0;
+  text-align: center;
+  h2 {
+    line-height: 2rem;
+    color: var(--grey-800);
+  }
+  p {
+    color: var(--gray-500);
+    margin: 1.5rem auto;
+    line-height: 1.75rem;
+    max-width: 784px;
+  }
+}

@@ -1,0 +1,39 @@
+.sharePayments {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10rem 0;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 20%;
+    top: -30%;
+    height: 1px;
+    width: 60%;
+    border-top: 1px solid var(--gray-200);
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    left: 20%;
+    bottom: -30%;
+    height: 1px;
+    width: 60%;
+    border-top: 1px solid var(--gray-200);
+  }
+  .sharePayments_text {
+    max-width: 450px;
+    width: 100%;
+    h2 {
+      line-height: 2rem;
+      color: var(--grey-800);
+    }
+    p {
+      color: var(--gray-500);
+      margin: 1.5rem 0;
+      line-height: 1.75rem;
+      
+    }
+  }
+}
