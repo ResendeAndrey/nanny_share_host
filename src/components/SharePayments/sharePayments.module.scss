@@ -22,6 +22,33 @@
     width: 60%;
     border-top: 1px solid var(--gray-200);
   }
+  @media (max-width: 600px){
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+    &::before {
+      top: -15%;
+    }
+    &::after {
+      bottom: -15%;
+    }
+    & .sharePayments_image {
+      margin: auto;
+      & img {
+        width: 312px;
+        height: 230px;
+        margin-bottom: 1.5rem;     
+      }
+    }
+    & .sharePayments_text {
+      text-align: center;
+      margin: 1rem auto;
+      & h2 {
+        width: 75%;
+        margin: auto;
+      }
+    }
+  }
   .sharePayments_text {
     max-width: 450px;
     width: 100%;

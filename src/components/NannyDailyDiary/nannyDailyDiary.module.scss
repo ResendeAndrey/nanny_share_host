@@ -1,6 +1,10 @@
 .nannyDailyDiary {
   margin: 10rem 0;
   text-align: center;
+  @media (max-width: 600px){
+    width: 60%;
+    margin: auto;
+  }
   h2 {
     line-height: 2rem;
     color: var(--grey-800);

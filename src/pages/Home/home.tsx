@@ -22,9 +22,9 @@ const Home: React.FC = () => {
     <div>
       <div className={styles.header}>
         <Header />
+        <CareAvailable />
       </div>
-      <div className={styles.container}>
-       <CareAvailable />
+      <div className={styles.container}>    
        <ShareNannyCosts />
        <NewsLetterShare />
        <SharePayments />

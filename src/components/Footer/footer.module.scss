@@ -12,7 +12,6 @@
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
-    
     & .footer_menu, .footer_social {  
       list-style: none;
       display: flex;
@@ -33,7 +32,23 @@
       flex: 34%;
       
     }
-     
+    @media (max-width: 600px){
+      flex-direction: column;
+      & .footer_menu{
+        width: 55%;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 1rem auto;
+        & li {
+          margin: .5rem 1rem;
+        }
+      }
+      & .footer_social {
+        & li {
+          margin: auto .5rem;
+        }
+      }
+    }
   }
   & p {
     color: var(--gray-800);

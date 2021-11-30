@@ -1,6 +1,9 @@
 .framework {
   margin: 4rem auto;
   text-align: center;
+  @media (max-width: 600px){
+    width: 60%;
+  }
   h2, p {
     color: var(--gray-800);
   }

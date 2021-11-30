@@ -7,7 +7,7 @@ const Framework: React.FC = () => {
   return (
     <div className={styles.framework}>
     <h2>A framework built for the long term</h2>
-    <p>Leave us your name and email and we’ll update you as soon as a share becomes available in your area!</p>
+    <p>Childcare is for the long term. And you need a framework you can count on that gives your share long term viability and success. That’s why we’ve defined Hapu around our three tribal principles; clearly defined process, transparency over money and equality of participation.</p>
     <Link to='#'>Read how Hapu’s tribal background defines our app </Link>
   </div>
   );

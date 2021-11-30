@@ -2,7 +2,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  background-color: var(--white);
+  padding: 1rem 0;
+  @media (max-width: 600px){ 
+    flex-direction: column;
+
+    & p {
+      margin: 1rem auto;
+      
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      & a {
+        width: 60%;
+        margin: 1rem auto;
+        font-weight: 500;
+      }
+    }
+  }
   & a {
     color: var(--purple-800);
     margin-left: 1rem;

@@ -3,7 +3,21 @@
   justify-content: space-between;
   align-items: flex-start;
   margin: 10rem 0;
-  
+  @media (max-width: 600px){
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    & img {
+      width: 304px;
+      height: 204px;
+      margin: auto;
+      margin-bottom: 1.5rem;
+    }
+    & h2, p {
+      width: 70%;
+      margin: 0 auto; 
+    }
+  }
   .shareNannyCosts_text {
     max-width: 450px;
     width: 100%;
@@ -13,7 +27,7 @@
     }
     p {
       color: var(--gray-500);
-      margin: 1.5rem 0;
+      margin: 1.5rem auto;
       line-height: 1.75rem;
       
     }

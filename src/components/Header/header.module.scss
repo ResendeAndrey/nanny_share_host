@@ -2,7 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  @media (max-width: 600px){
+    & ul {
+      & li:not(:first-child) {
+        display: none;
+      }
+    }
+  }
   & ul {
     display: flex;
     justify-content: space-between;
@@ -19,6 +25,7 @@
         color: var(--white);
         padding: 1rem;
       }
+      
     }
   }
 }
@@ -36,6 +43,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 540px){
+    flex-direction: column;
+    text-align: center;
+    & h1 {
+      width: 75%;
+      margin: 0 auto;
+    }
+    & h4 {
+      line-height: 1.75rem;
+      font-size: 1rem;
+    }
+    .playButton {
+      display: flex;
+      justify-content: center;
+    }
+    .header_content__actionCard {
+      display: none;
+    }
+  }
   .header_content__text {
     display: flex;
     flex-direction: column;

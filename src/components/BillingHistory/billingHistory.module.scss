@@ -3,6 +3,9 @@
   justify-content: center;
   margin: 4rem 0;
   position: relative;
+  @media (max-width: 600px){
+    display: none;
+  }
   &::before {
     content: "";
     position: absolute;
